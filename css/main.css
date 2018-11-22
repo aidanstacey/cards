@@ -7,6 +7,7 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+
 }
 
 .cards {
@@ -35,6 +36,8 @@ html {
 .cards strong {
   display: block;
   margin-bottom: 1rem;
+
+  font-size: 1.125rem;
 }
 
 .cards dl {
@@ -42,6 +45,12 @@ html {
 }
 
 .cards dt {
+  display: inline-block;
+  width: 6em;
+  font-style: italic;
+}
+
+.cards dd {
   display: inline-block;
   margin: 0;
   min-width: 9em;
